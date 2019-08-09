@@ -6160,6 +6160,11 @@ mkdirp@0.5.1, mkdirp@0.5.x, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.0, mkdirp@
   dependencies:
     minimist "0.0.8"
 
+moment@^2.24.0:
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -7716,6 +7721,21 @@ pumpify@^1.3.3:
     inherits "^2.0.3"
     pump "^2.0.0"
 
+punkapi-db@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/punkapi-db/-/punkapi-db-2.6.0.tgz#6bdd9bf0a0b7a0d22e15767c30538da592950449"
+  integrity sha512-axh6wHLmUoQPUDtNRAW3G/CnllAbwc3ZtRhHvkvhXK11iqfVdeOv6tnhGHWxiYCiQtmL2uxjpSrR/HBMfT98Mg==
+
+punkapi-lib@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/punkapi-lib/-/punkapi-lib-2.5.0.tgz#c5d343cd78d4e6857c0504398999e838d799d22f"
+  integrity sha512-s4x6vL0j+4dy0WhFEtvtaqEEb92rGmDarIyAgWo52T0c3rAwiWpi4NOB0ffoB0ng3M/mAkxC1BSMqWq42bK1Xg==
+  dependencies:
+    lodash "^4.17.11"
+    moment "^2.24.0"
+    punkapi-db "^2.6.0"
+    unique-random-array "^2.0.0"
+
 punycode@1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
@@ -7846,7 +7866,7 @@ react-dev-utils@^9.0.1:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.9.0:
+react-dom@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
   integrity sha512-YFT2rxO9hM70ewk9jq0y6sQk8cL02xm4+IzYBz75CQGlClQQ1Bxq0nhHF6OtSbit+AIahujJgb/CPRibFkMNJQ==
@@ -7926,7 +7946,7 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-react@16.9.0:
+react@^16.9.0:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.9.0.tgz#40ba2f9af13bc1a38d75dbf2f4359a5185c4f7aa"
   integrity sha512-+7LQnFBwkiw+BobzOF6N//BdoNw0ouwmSJTEm9cglOOmsg/TMiFHZLe2sEoN5M7LgJTj9oHH0gxklfnQe66S1w==
@@ -9297,6 +9317,18 @@ unique-filename@^1.1.1:
   integrity sha512-Vmp0jIp2ln35UTXuryvjzkjGdRyf9b2lTXuSYUiPmzRcl3FDtYqAwOnTJkAngD9SWhnoJzDbTKwaOrZ+STtxNQ==
   dependencies:
     unique-slug "^2.0.0"
+
+unique-random-array@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/unique-random-array/-/unique-random-array-2.0.0.tgz#9e639b1a9dc141e97350a6fc6f17da4b0717b1ad"
+  integrity sha512-xR87O95fZ7hljw84J8r1YDXrvffPLWN513BNOP4Bv0KcgG5dyEUrHwsvP7mVAOKg4Y80uqRbpUk0GKr8il70qg==
+  dependencies:
+    unique-random "^2.1.0"
+
+unique-random@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/unique-random/-/unique-random-2.1.0.tgz#7a8413da5176d028567168b57125ac5c0cec5c25"
+  integrity sha512-iQ1ZgWac3b8YxGThecQFRQiqgk6xFERRwHZIWeVVsqlbmgCRl0PY13R4mUkodNgctmg5b5odG1nyW/IbOxQTqg==
 
 unique-slug@^2.0.0:
   version "2.0.1"
