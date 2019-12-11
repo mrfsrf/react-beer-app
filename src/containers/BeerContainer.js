@@ -17,6 +17,7 @@ class BeerContainer extends React.Component {
     const url = 'https://api.punkapi.com/v2/beers'
     fetch(url)
     .then((res) => {
+      console.log(res.headers);
       return res.json();
     })
     .then((beers) => {
